@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 20px 0px;
+}
+
+nav{
+    width: 80%;
+    box-sizing: content-box;
+    overflow: auto;
+
+    margin: auto;
+    padding: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+
+    color: white;
+    text-align: center;
+
+}
+
+nav .nav-index{  
+    width: 10%;
+    float: left;
+}
+
+.banner{
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+.banner .info{
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    padding: 5%;
+}
+
+.banner img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.row{
+    overflow: auto;
+    background-color: #fafafa;
+}
+
+.row .item{
+    float:left;
+    padding: 0px 10px;
+    width: 50%;
+}
+
+.item img{
+    width: 75%;
+}
+
+.shortcuts{
+    width: 80%;
+    overflow: auto;
+    
+    margin: auto;
+    margin-bottom: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.pinned{
+    width: 20%;
+    float: left;
+}
+
+.pinned a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+
+.sub-pinned{
+    margin-bottom: 10%;
+}
+
+.support{
+    width: 80%;
+    margin: auto;
+
+    font-size: 12px;
+    color: gray;
+}
+
+.contact, .copyright, hr{
+    margin-bottom: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: black;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-right: 1px solid gray;
+}

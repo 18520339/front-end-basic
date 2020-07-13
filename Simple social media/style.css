@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+header, main, footer{
+    display: flex;
+    padding: 20px;
+    background: #4e636e;
+}
+
+header{
+    padding: 0px;
+}
+
+header > div{  
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+header a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+header .logo{
+    padding: 15px 20px;
+    background: #3b4b52;
+}
+
+header .notice{
+    display: inline;
+    padding: 2px 7px;
+
+    border-radius: 300px;
+    font-size: 10px;
+
+    color: white;
+    background: #50ae54;  
+}
+
+header .avatar{
+    width: 5%;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.avatar img{
+    width: 50%;
+    border-radius: 300px;
+}
+
+main{
+    background: #f5f7f8;
+}
+
+main > .left, main > .center, main > .right{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 7px;
+}
+
+main > .left{
+    width: 44%;
+}
+
+main > .center{
+    width: 100%;
+}
+
+main > .right{
+    width: 27%;
+    min-height: 20px;
+}
+
+hr{
+    border: solid #dfe5e8 0.5px; 
+}
+
+button{
+    padding: 10px;
+    border: none;
+}
+
+button > i{
+    letter-spacing: 5px;
+}
+
+.left > .profile, .left > .details, .left > .interests,
+.center > .status, .center > .newfeed,
+.right > .event, .right > .requests, .right > .ads, .right > .icon{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px 0px;
+    padding: 7px 14px;
+    
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.left li, 
+    .profile > .title, .profile > img, .profile > hr, 
+    .interests > p, .interests > .interests-links,
+.center .action, 
+    .newfeed > .user, .newfeed > hr, .newfeed > .content, .newfeed > .image,
+.right p, .right img, .right h5, .right button, .right .info{
+    margin: 7px 0px;
+}
+
+.left ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.left i{
+    width: 15%;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile > .title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.profile > img{
+    width: 35%;
+    margin: 10px auto;
+    border-radius: 300px;
+}
+
+.profile i{
+    color: #617d8a;
+}
+
+.left > .details{
+    background: #7d97a4;
+}
+
+.details i, .details a{
+    color: white;
+}
+
+.interests-links > a{
+    font-size: 12px;
+    padding:0px 5px; 
+}
+
+.left > .note{
+    background: #dfe5e8;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.note > h5 , .note > p{
+    margin: 17px 14px;
+}
+
+.note > i{
+    background: #becbd2;
+    padding: 7px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.note > p{
+    font-size: 14px;
+}
+
+.action > button{
+    background: #617d8a;
+    color: white;
+}
+
+.status > p, .status > input{
+    display: block;
+    margin: 7px 0px;
+}
+
+.status > p{
+    color: grey;
+    font-size: 15px;
+}
+
+.status > input{
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.newfeed > .user{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.user > img{
+    width: 9%;
+    border-radius: 300px;
+}
+
+.user > .name{
+    align-self: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.user > .time{
+    margin-left: auto;
+    color: #8b8b8b;
+    font-size: 15px;
+}
+
+.newfeed > .content{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.newfeed > .image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image > img{
+    width: 49%;
+}
+
+.full > img{
+    width: 100%;
+}
+
+.right p, .event > h5{
+    text-align: center;
+    font-size: 14px;
+}
+
+.event img{
+    width:100%;
+}
+
+.event > button{
+    background: #dfe5e8;
+}
+
+.requests .addfr{
+    display: flex;
+}
+
+.addfr > button{
+    width: 50%;
+    font-size: 10px;
+    color: white
+}
+
+.info > img, .info > p{
+    margin: 0px;
+}
+
+.info > img{
+    width: 60%;
+    display: block;
+    margin:auto;
+}
+
+.right > .ads, .right > .icon{
+    text-align: center;
+}
+
+.right > .ads{
+    padding: 25px;
+}
+
+.right > .icon{
+    padding: 50px;
+}
+
+.icon > i{
+    font-size: 30px;
+    
+}
+
+footer{
+    color: white;
+}

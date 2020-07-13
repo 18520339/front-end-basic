@@ -1,0 +1,26 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-content__col {
+    width: 24%;
+    padding: 25px 40px;
+    min-height: 300px;
+    border: solid lightgray 0.5px;
+}
+
+.footer-content__col h5 {
+    margin-bottom: 5px;
+}
+
+.footer-content__col li {
+    padding: 5px 0px;
+    font-size: 12.5px;
+}
+
+.footer-legal {
+    min-height: 60px;
+    background: black;
+}
